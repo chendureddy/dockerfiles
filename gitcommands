@@ -1,0 +1,36 @@
+   touch index.html
+   git push
+   git push index.html
+   git add index.html
+   git commit -m "updated file"
+   git log
+   git push index.html
+   git push
+   git push --set-upstream origin main
+   cat > Dockerfile
+   vim Dockerfile
+   git add Dockerfile
+   git status
+   ls
+   git restore Dockerfile
+   git status
+   git commit -m "update file content"
+   git status
+   git commit -a "update file content"
+   git add Dockerfile
+   git add Dockerfile > myapp
+   ls
+   cat myapp
+   mv Dockerfile myapp
+   cat myapp
+   git add myapp
+   git status
+   git commit -m "create a myapp"
+   git push
+   git pull myfile.txt
+   ls
+   cat myfile.txt
+   vim myfile.txt
+   git add myfile.txt
+   git commit -m "update created myfile"
+   git push 

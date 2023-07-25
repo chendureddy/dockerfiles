@@ -4,7 +4,7 @@
 
   tasks:
     - name: apache installation
-      shell: yum install httpd -y
+      shell: apt-get install httpd -y
       register: out1
     - debug: msg={{ out1.stdout }}
 
